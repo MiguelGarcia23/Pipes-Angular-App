@@ -63,7 +63,7 @@ export class NoComunesComponent {
   ]
 
   // Async Pipe
-  miObservable = interval(2000);
+  miObservable = interval(1000);
 
   valorPromesa = new Promise( (resolve, reject) => {
 
