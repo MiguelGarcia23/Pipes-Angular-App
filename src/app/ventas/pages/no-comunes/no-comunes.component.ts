@@ -38,4 +38,11 @@ export class NoComunesComponent {
     this.clientes.pop();
   }
 
+  // KeyValue Pipe
+  persona = {
+    nombre: 'Daryl',
+    edad: 40,
+    direccion: 'Virginia, USA'
+  }
+
 }
