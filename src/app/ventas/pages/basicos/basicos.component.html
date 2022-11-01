@@ -8,13 +8,22 @@
 <div class="grid">
 
     <div class="col-4">
-        <p-card header="uppercase"></p-card>
+        <p-card header="uppercase"
+                [subheader]="nombreLower | uppercase">
+            {{ nombreLower | uppercase }}
+        </p-card>
     </div>
     <div class="col-4">
-        2
+        <p-card header="lowercase"
+                [subheader]="nombreUpper | lowercase">
+            {{ nombreUpper | lowercase }}
+        </p-card>
     </div>
     <div class="col-4">
-        3
+        <p-card header="titlecase"
+                [subheader]="nombreCompleto | titlecase">
+            {{ nombreCompleto | titlecase }}
+        </p-card>
     </div>
 
 </div>
