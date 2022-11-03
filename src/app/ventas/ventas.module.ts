@@ -9,6 +9,7 @@ import { NumerosComponent } from './pages/numeros/numeros.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
 
 
 
@@ -18,7 +19,8 @@ import { MayusculasPipe } from './pipes/mayusculas.pipe';
     NoComunesComponent,
     NumerosComponent,
     OrdenarComponent,
-    MayusculasPipe
+    MayusculasPipe,
+    VuelaPipe
   ],
   exports: [
     BasicosComponent,
