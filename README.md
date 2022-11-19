@@ -1,27 +1,49 @@
-# PipesApp
+# Pipes Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+_App web sobre los [Pipes de Angular](https://angular.io/guide/pipes)_
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Code scaffolding
+### Pre-requisitos 📋
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Tener instalado en tu ordenador el sistema de gestión de paquetes [YARN](https://yarnpkg.com/)_
 
-## Build
+### Instalación 🔧
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+_Serie de secuencias paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-## Running unit tests
+_Inicializar un repositorio local en git_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+git init
+```
 
-## Running end-to-end tests
+_Clonar este repositorio_
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+git clone https://github.com/MiguelGarcia23/pipes-angular-app
+```
 
-## Further help
+_Instalar todas las dependencias necesarias_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+yarn
+```
+
+_Colocar en funcionamiento el servidor_
+
+```
+ng serve -o
+```
+
+## Construido con 🛠️
+
+* ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+* ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* [PrimeNG](https://www.primefaces.org/primeng/) para el diseño
+
+---
+⌨️ con ❤️ por 🐺[Miguel García](https://github.com/MiguelGarcia23)
